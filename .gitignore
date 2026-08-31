@@ -27,6 +27,18 @@ backend/app/data/
 *.sqlite3
 chroma/
 
+# ===== 临时脚本和工具（不要提交）=====
+backend/add_*.py
+backend/migrate_*.py
+backend/backup_*.py
+**/temp_*.py
+**/tmp_*.py
+
+# ===== 包管理器锁文件（只保留 package-lock.json）=====
+pnpm-lock.yaml
+pnpm-workspace.yaml
+yarn.lock
+
 # ===== 测试文件（可选提交，这里排除）=====
 backend/test_*.py
 backend/test_*.txt
