@@ -1,0 +1,68 @@
+# ===== 前端 =====
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/*.local
+frontend/.env.local
+frontend/.env.*.local
+
+# ===== 后端 =====
+backend/venv/
+backend/__pycache__/
+backend/**/__pycache__/
+backend/*.pyc
+backend/*.pyo
+backend/*.egg-info/
+backend/dist/
+backend/build/
+
+# ===== 数据文件（不要提交）=====
+backend/data/
+backend/app/data/
+**/data/uploads/
+**/data/kb_uploads/
+**/data/chroma/
+*.db
+*.sqlite
+*.sqlite3
+chroma/
+
+# ===== 测试文件（可选提交，这里排除）=====
+backend/test_*.py
+backend/test_*.txt
+**/__pycache__/test_*
+
+# ===== 环境变量（包含密钥，绝对不要提交）=====
+backend/.env
+.env
+.env.local
+.env.*.local
+
+# ===== IDE =====
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ===== 系统文件 =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== 日志 =====
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ===== 临时文件 =====
+*.tmp
+*.temp
+*.bak
+*.cache
+
+# ===== 部署 =====
+.render/
+.vercel/
