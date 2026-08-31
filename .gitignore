@@ -75,6 +75,23 @@ yarn-error.log*
 *.bak
 *.cache
 
+# ===== 截图和图片（不要提交）=====
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.webp
+!frontend/src/assets/*.png
+!frontend/src/assets/*.jpg
+
+# ===== 项目文档（本地保留，不提交到公开仓库）=====
+Interview-Copilot-PRD.md
+Interview-Copilot-Impl.md
+Interview-Copilot-Impl-Python.md
+*PRD*.md
+*实施*.md
+
 # ===== 部署 =====
 .render/
 .vercel/
