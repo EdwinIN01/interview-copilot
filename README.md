@@ -21,8 +21,6 @@
 
 ## 📸 项目截图
 
-> 待补充：运行项目后截图替换以下占位图
-
 | 面试房间 | 面试报告 |
 |---------|---------|
 | ![面试房间](docs/screenshots/interview-room.png) | ![面试报告](docs/screenshots/report.png) |

@@ -84,6 +84,12 @@ yarn-error.log*
 *.webp
 !frontend/src/assets/*.png
 !frontend/src/assets/*.jpg
+!docs/screenshots/*.png
+!docs/screenshots/*.jpg
+
+# ===== 日志文件 =====
+*.log
+backend_log.txt
 
 # ===== 项目文档（本地保留，不提交到公开仓库）=====
 Interview-Copilot-PRD.md
