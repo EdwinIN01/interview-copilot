@@ -4,7 +4,7 @@
 
 > 基于 LangGraph + FastAPI + React 的全栈 AI 面试模拟平台
 > 
-> 让 AI 扮演面试官，帮你在秋招前反复练习、查漏补缺
+> 让 AI 扮演你的专属面试官，随时随地模拟练习、查漏补缺
 
 [![Python](https://img.shields.io/badge/Python-3.11+-blue?logo=python)](https://www.python.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.115+-009688?logo=fastapi)](https://fastapi.tiangolo.com/)
